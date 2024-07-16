@@ -1,0 +1,622 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.txt{
+    width: 45%;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 35px ;
+    font-weight: bold;
+    color:rgb(101, 30, 2);
+    margin-top: -30px;
+    /*margin-left: 600px*/
+    
+}
+h1{
+    text-align: right;
+}
+.buscador{
+    padding-top: 2%;
+    width: 25%;
+    transform: translate(25%,0);
+}
+#search1{
+    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    max-width: 150px;
+    outline: none;/*Eliminar el contorno predeterminado*/
+    border: 2px solid rgb(207, 162, 162);/* agregar borde de color*/
+    background-color: white;
+    padding: 5px 15px;
+    margin-right: -2%;
+}
+#img-search{
+    width: 15px;
+}
+.buscador button{
+    margin-left: 1.5%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.iconos{
+    width: 20%;
+    padding-top: 2%;
+    transform: translate(25%,0);
+    margin-left: -2%;
+}
+#compra1, #compra2, #compra3{
+    width: 30px;  
+    padding-left: 15px;  
+}
+#navegador{
+    height: 40px;
+    padding-top: 20px;
+    background-color: rgba(168, 114, 26, 0.548);
+}
+#navegador ul{
+    list-style-type: none; /*Quitar la sangria*/
+    text-align: center;
+}
+#navegador li{
+    display: inline; /* Para cambiar la posicion del menu*/
+}
+#navegador li a{
+    color: white; /* cambia el color de texto*/
+    text-decoration: none; /* elimina la linea subrayada */
+    margin: 100px; /* margen entre las palabras*/
+    font-size: 20px;
+}
+.img{
+    height: 350px;
+    background-image: url(/images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    color: whitesmoke;
+}
+#txt1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+#txt2{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+}
+#txt3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+#txtRecomendacion{
+    color: darkred;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.recomendaciones{
+    /*columns: 20px 4;
+    padding-left: 80px;*/
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    margin-left: 10%;
+}
+#LHarry{
+    margin-top: 20px;
+    width: 25%;
+    margin-left: -2%;
+}
+#LHarry img{
+    display: flex;
+    margin: auto;
+    width: 190px;
+    height: 290px;
+    margin-bottom: 15px;
+}
+.info{
+    height: 39px;
+    width: 200px;
+    padding-left: 110px;
+}
+.info p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#autor{
+    font-weight: normal;
+    padding-top: 15px;
+}
+.seemore{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.seemoreh{
+    text-decoration: none;
+    color: white;
+}
+
+#CienAnios{
+   margin-top: 20px;
+   width: 25%;
+   margin-left: -1%;
+}
+#CienAnios{
+    text-align: center;
+}
+#CienAnios img{
+    display: flex;
+    margin: auto;
+    width: 190px;
+    height: 290px;
+    margin-bottom: 15px;
+}
+.info2{
+    height: 39px;
+    width: 200px;
+    padding-left: 115px;
+}
+.info2 p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#autor2{
+    font-weight: normal;
+    padding-top: 30px;
+}
+.seemore2{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 60px;
+}
+.seemoreh2{
+    text-decoration: none;
+    color: white;
+}
+#LaInsopor{
+   margin-top: 20px;
+   width: 25%;
+   margin-left: -2%;
+}
+#LaInsopor{
+    text-align: center;
+}
+#LaInsopor img{
+    display: flex;
+    margin: auto;
+    width: 190px;
+    height: 290px;
+    margin-bottom: 15px;
+}
+.info3{
+    height: 39px;
+    width: 200px;
+    padding-left: 115px;
+}
+.info3 p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#autor3{
+    font-weight: normal;
+    padding-top: 15px;
+}
+.seemore3{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.seemoreh3{
+    text-decoration: none;
+    color: white;
+}
+#Agua{
+    margin-top: 20px;
+    width: 25%;
+    margin-left: -2%;
+}
+
+#Agua img{
+    display: flex;
+    margin: auto;
+    width: 190px;
+    height: 290px;
+    margin-bottom: 15px;
+}
+.info4{
+    height: 39px;
+    width: 200px;
+    padding-left: 115px;
+}
+.info4 p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#autor4{
+    font-weight: normal;
+    padding-top: 15px;
+}
+.seemore4{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 190px;
+}
+.seemoreh4{
+    text-decoration: none;
+    color: white;
+}
+#txtLibros{
+    color: darkred;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+#Libros{
+    /*columns: 20px 4;
+    padding-left: 80px;*/
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    margin-left: 10%;
+}
+#Fuerte{
+    margin-top: 5px;
+    width: 25%;
+    margin-left: -1%;
+}
+.Info{
+    height: 39px;
+    width: 200px;
+    margin-top: 10px;
+}
+.Info p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#Autor{
+    font-weight: normal;
+    padding-top: 15px;
+}
+#precio{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(178, 151, 32);
+}
+.Comprar{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#Rayuela{
+    margin-top: 5px;
+    width: 25%;
+    margin-left: -1%;
+}
+.Info1{
+    height: 39px;
+    width: 200px;
+    margin-top: 10px;
+}
+.Info1 p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#Autor1{
+    font-weight: normal;
+    padding-top: 15px;
+}
+#precio1{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(178, 151, 32);
+}
+.Comprar1{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+#Laley{
+    margin-top: 5px;
+    width: 25%;
+    margin-left: -1%;
+}
+.Info2{
+    height: 39px;
+    width: 200px;
+    margin-top: 10px;
+}
+.Info2 p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#Autor2{
+    font-weight: normal;
+    padding-top: 15px;
+}
+#precio2{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(178, 151, 32);
+}
+.Comprar2{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+#Arrancame{
+    margin-top: 5px;
+    width: 25%;
+    margin-left: -1%;
+}
+.Info3{
+    height: 39px;
+    width: 200px;
+    margin-top: 10px;
+}
+.Info3 p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#Autor3{
+    font-weight: normal;
+    padding-top: 15px;
+}
+#precio3{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(178, 151, 32);
+}
+.Comprar3{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+#ElProblema{
+    margin-top: 5px;
+    width: 25%;
+    margin-left: -1%;
+}
+.Info4{
+    height: 39px;
+    width: 200px;
+    margin-top: 10px;
+}
+.Info4 p{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+#Autor4{
+    font-weight: normal;
+    padding-top: 5px;
+}
+#precio4{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(178, 151, 32);
+}
+.Comprar4{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+#conocenos{
+    columns: 20px 2;
+}
+#conocenos h2{
+    color: darkred;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+
+}
+.txt4{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: justify;
+    font-size: 25px;
+}
+#negrita{
+    color:rgb(172, 22, 22) ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+}
+#imgLibreria{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+footer{
+    background-color: rgba(168, 114, 26, 0.548);
+}
+#PiePagina{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    margin-left: 1%;
+    font-family: "Roboto", sans-serif;
+}
+#eltunel{
+    width: 60%;
+    font-size: 25px;
+    padding-top: 25px;
+    color: white;
+}
+#texto{
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+}
+#eltunel p{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#Redes{
+    padding-left: 30px;
+}
+#Redes li {
+    display: inline;
+    padding-left: 10px;
+}
+#Informacion{
+    padding-top: 28px;
+    width: 60%;
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+#texto2{
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+#Informacion ul{
+    padding-top: 18px;
+    list-style-type: none;
+}
+#Informacion li a{
+    text-decoration: none;
+    margin: 100px;
+    color: white;
+}
+#Suscribete{
+    padding-top: 28px;
+    width: 60%;
+    margin-left: 2%;
+    font-size: 25px;
+    color: white;
+}
+#texto3{
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+#Suscribete p{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.Enviar{
+    padding-top: 2%;
+    
+}
+#Search{
+    padding: 5px 15px;
+    margin-right: -2%;
+    width: 70%;
+}
+.Enviar1{
+    background-color:rgb(218, 110, 78);
+    border: none;
+    height: 30px;
+    width: 55px;
+    color: white;
+}
+#txtultimo{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+
